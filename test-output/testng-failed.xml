@@ -5,7 +5,7 @@
     <classes>
       <class name="Usman.Usman.Maintest">
         <methods>
-          <include name="compare"/>
+          <include name="tv"/>
           <include name="setup"/>
         </methods>
       </class> <!-- Usman.Usman.Maintest -->

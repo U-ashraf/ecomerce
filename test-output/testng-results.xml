@@ -1,56 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-10T15:19:42 CEST" name="Default suite" finished-at="2023-06-10T15:20:48 CEST" duration-ms="66279">
+  <suite started-at="2023-06-11T21:26:57 CEST" name="Default suite" finished-at="2023-06-11T21:26:57 CEST" duration-ms="120">
     <groups>
     </groups>
-    <test started-at="2023-06-10T15:19:42 CEST" name="Default test" finished-at="2023-06-10T15:20:48 CEST" duration-ms="66279">
+    <test started-at="2023-06-11T21:26:57 CEST" name="Default test" finished-at="2023-06-11T21:26:57 CEST" duration-ms="120">
       <class name="Usman.Usman.Maintest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:19:34 CEST" name="setup" finished-at="2023-06-10T15:19:42 CEST" duration-ms="8043" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Usman.Usman.Maintest@7e5afaa6]" started-at="2023-06-11T21:26:46 CEST" name="setup" finished-at="2023-06-11T21:26:57 CEST" duration-ms="10873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="title()[pri:0, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:19:42 CEST" name="title" finished-at="2023-06-10T15:19:47 CEST" duration-ms="5329" status="PASS">
+        <test-method signature="navigateBack2()[pri:9, instance:Usman.Usman.Maintest@7e5afaa6]" started-at="2023-06-11T21:26:57 CEST" name="navigateBack2" finished-at="2023-06-11T21:26:57 CEST" duration-ms="75" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-        <test-method signature="Mobile()[pri:1, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:19:47 CEST" name="Mobile" finished-at="2023-06-10T15:19:54 CEST" duration-ms="7356" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Mobile -->
-        <test-method signature="dropdown()[pri:2, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:19:54 CEST" name="dropdown" finished-at="2023-06-10T15:20:00 CEST" duration-ms="5098" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdown -->
-        <test-method signature="dropdownTest()[pri:3, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:00 CEST" name="dropdownTest" finished-at="2023-06-10T15:20:00 CEST" duration-ms="857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dropdownTest -->
-        <test-method signature="mobilename()[pri:4, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:00 CEST" name="mobilename" finished-at="2023-06-10T15:20:01 CEST" duration-ms="272" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobilename -->
-        <test-method signature="mobilepricecompare()[pri:5, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:01 CEST" name="mobilepricecompare" finished-at="2023-06-10T15:20:10 CEST" duration-ms="9118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobilepricecompare -->
-        <test-method signature="navigateBack()[pri:6, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:10 CEST" name="navigateBack" finished-at="2023-06-10T15:20:10 CEST" duration-ms="684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateBack -->
-        <test-method signature="addcarte()[pri:7, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:10 CEST" name="addcarte" finished-at="2023-06-10T15:20:29 CEST" duration-ms="18453" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addcarte -->
-        <test-method signature="navigateBack1()[pri:8, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:29 CEST" name="navigateBack1" finished-at="2023-06-10T15:20:36 CEST" duration-ms="6692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateBack1 -->
-        <test-method signature="compare()[pri:9, instance:Usman.Usman.Maintest@6f46426d]" started-at="2023-06-10T15:20:36 CEST" name="compare" finished-at="2023-06-10T15:20:48 CEST" duration-ms="12337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compare -->
+        </test-method> <!-- navigateBack2 -->
       </class> <!-- Usman.Usman.Maintest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

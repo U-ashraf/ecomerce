@@ -22,7 +22,7 @@ public class Maintest extends Basetest {
 		driver.close();
 	}*/
 	
-	@Test(priority=0)
+	@Test(priority=3)
 	public void title() throws InterruptedException
 	{
 		Titlepage tp=new Titlepage(driver);
@@ -34,7 +34,7 @@ public class Maintest extends Basetest {
 		
 
 		}
-	@Test(priority=1)
+	@Test(priority=4)
 	public void Mobile() throws InterruptedException
 	{
 		MobilePage mp=new MobilePage(driver);
@@ -47,7 +47,7 @@ public class Maintest extends Basetest {
 
 
 	}
-	@Test(priority=2)
+	@Test(priority=5)
 	public void dropdown() throws InterruptedException
 	{
 		MobilePage mp=new MobilePage(driver);
@@ -56,19 +56,19 @@ public class Maintest extends Basetest {
 
 		}
 	
-	 @Test(priority=3)
+	 @Test(priority=6)
 	    public void dropdownTest() {
 	        MobilePage homePage = new MobilePage(driver);
 	        homePage.selectOptionFromDropdown(1);
 	    }
-	 @Test(priority=4)
+	 @Test(priority=7)
 	 public void mobilename()
 	 {
 	        MobilePage mp = new MobilePage(driver);
 	        mp.mobilename();
 
 	 }
-	 @Test(priority=5)
+	 @Test(priority=8)
 	 public void mobilepricecompare() throws InterruptedException
 	 {
 		 listanddetailpricepage ld=new  listanddetailpricepage(driver);
@@ -76,18 +76,18 @@ public class Maintest extends Basetest {
 		 
 	 }
 	
-	@Test(priority=6)
-	   public void navigateBack() {
+	@Test(priority=9)
+	   public void navigateBack2() {
 	        driver.navigate().back();
 	    }
-     @Test(priority=7)
+     @Test(priority=10)
 	 public void addcarte() throws InterruptedException
 	 {
 		 Addcartepage ac=new Addcartepage(driver);
 		 ac.addcarte();
 		 
 	 }	 
-     @Test(priority=8)
+     @Test(priority=11)
 	   public void navigateBack1() throws InterruptedException {
 	        driver.navigate().back();
 	        Thread.sleep(5000);
@@ -95,12 +95,38 @@ public class Maintest extends Basetest {
 	        driver.navigate().back();
 
 	    }
-     @Test(priority=9)
+     @Test(priority=12)
 	 public void compare() throws InterruptedException
 	 {
 		 Comparepage compare=new Comparepage(driver);
 		 compare.compare();
 		 
-	 }	 
+	 }	
+     @Test(priority=0)
+   	 public void creataccount() throws InterruptedException
+   	 {
+    	 Creataccountpage caccount=new  Creataccountpage(driver);
+   		 caccount.creataccount();
+   		 
+   	 }	 
+     @Test(priority=1)
+   	 public void tv() throws InterruptedException
+   	 {
+    	 Tvpage tv=new  Tvpage(driver);
+   		 tv.tv();
+   		 
+   		 
+   	 }	
+     @Test(priority=2)
+	   public void navigateBack() {
+	        driver.navigate().back();
+	        driver.navigate().back();
+	        driver.navigate().back();
+	        driver.navigate().back();
+	        driver.navigate().back();
+	        driver.navigate().back();
+  
+	        
+	         }
 
 }
